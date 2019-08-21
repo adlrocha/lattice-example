@@ -13,7 +13,7 @@ func main() {
 	msg1 := bigint.NewInt(10)
 	msg2 := bigint.NewInt(8)
 
-	// Initializing the
+	// Initializing parameters
 	N := uint32(32)                                        // polynomial degree
 	T := bigint.NewInt(10)                                 // plaintext moduli
 	Q := bigint.NewInt(8380417)                            // ciphertext moduli
